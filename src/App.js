@@ -1,9 +1,10 @@
-import HolaMundo from "./components/HolaMundo";
+//import HolaMundo from "./components/HolaMundo";
+import AltaProducto from "./components/AltaProducto";
 
 function App() {
   return (
-    <div>
-      <HolaMundo/>
+    <div className="container mt-5">
+      <AltaProducto/>
     </div>
   );
 }
